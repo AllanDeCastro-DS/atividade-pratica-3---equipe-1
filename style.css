@@ -1,0 +1,62 @@
+body {
+  text-align: center;
+  background-color: #283149;
+  color: steelblue;
+}
+
+button {
+  border: none;
+  background: none;
+  text-transform: uppercase;
+  height: 100%;
+  font-weight: 700;
+  color: steelblue;
+  letter-spacing: 1px;
+  font-size: inherit;
+  transition: all 0.3s;
+  outline: none;
+  border-radius: 5px;
+  scale: 2;
+  margin: 2vh;
+}
+
+button:hover {
+  color: white;
+  background-color: steelblue;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:active {
+  transform: translate(0, 5px);
+}
+
+#array1 {
+  color: white;
+  transition: all 0.3s;
+}
+
+#array1:hover {
+  scale: 1.2;
+  cursor: context-menu;
+}
+
+#array2 {
+  color: white;
+  transition: all 0.3s;
+}
+
+#array2:hover {
+  scale: 1.2;
+  cursor: context-menu;
+}
+
+#result {
+  color: white;
+  transition: all 0.3s;
+}
+
+#result:hover {
+  scale: 1.2;
+  cursor: context-menu;
+}
